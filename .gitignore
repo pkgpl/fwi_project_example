@@ -1,3 +1,7 @@
 *.o
 *.a
 .ipynb_checkpoints/
+seismo.????
+*.bin
+*.rsf*
+runs/

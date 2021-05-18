@@ -5,7 +5,7 @@ FROM $dockerfrom
 #RUN pip install 
 
 # install additional packages
-#RUN git clone 
+RUN git clone https://github.com/pkgpl/TorchWI.git; cd TorchWI; python setup.py install
 
 # docker shell prompt for root
 RUN echo 'export PS1="\e[0;31m(docker) \e[m[\u@\h \w]# "' >> /root/.profile
